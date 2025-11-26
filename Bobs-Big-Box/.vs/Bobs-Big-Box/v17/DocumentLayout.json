@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|c:\\users\\arthu\\desktop\\semester 2\\projects\\personal_games\\bobs-big-box\\assets\\scripts\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\assets\\inputsystem_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|solutionrelative:assets\\inputsystem_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControls.cs",
               "ToolTip": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\Scripts\\PlayerControls.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerControls.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T23:18:09.33Z",
               "EditorCaption": ""
@@ -44,6 +48,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputSystem_Actions.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\InputSystem_Actions.cs",
+              "RelativeDocumentMoniker": "Assets\\InputSystem_Actions.cs",
+              "ToolTip": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\InputSystem_Actions.cs",
+              "RelativeToolTip": "Assets\\InputSystem_Actions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:39:37.018Z",
+              "EditorCaption": ""
             }
           ]
         }
