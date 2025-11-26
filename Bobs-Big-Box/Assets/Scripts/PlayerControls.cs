@@ -93,11 +93,13 @@ public class PlayerControls : MonoBehaviour
             animator.SetBool("IsBlocking", false);
         }
 
-       
-        if (animator != null)
+        if (Keyboard.current.zKey.wasPressedThisFrame)
         {
-            animator.SetFloat("Speed", moveInput.magnitude);
+            animator.SetTrigger("RHpunch");
+            Debug.Log("heavy punch");
         }
+
+
     }
 
     void FixedUpdate()
