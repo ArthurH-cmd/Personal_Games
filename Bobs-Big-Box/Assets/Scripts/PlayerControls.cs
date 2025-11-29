@@ -6,6 +6,7 @@ public class PlayerControls : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f;
 
+
     [Header("Mouse Settings")]
     [SerializeField] private float rotationSpeed = 720f; // Degrees per second - higher = snappier
     [SerializeField] private float mouseDeadzone = 1f;
@@ -21,9 +22,14 @@ public class PlayerControls : MonoBehaviour
     private Rigidbody rb;
     private Vector2 moveInput;
 
+    public ParticleSystem particleEffect;
+    private AudioSource audioSource;
+    public AudioClip soundEffect;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
 
         // Get main camera if not assigned
         if (mainCamera == null)
@@ -61,6 +67,7 @@ public class PlayerControls : MonoBehaviour
 
     void Update()
     {
+    
         // Get movement input
         if (moveAction != null)
         {
@@ -89,7 +96,7 @@ public class PlayerControls : MonoBehaviour
         }
         else
         {
-            Debug.Log("dropped guard");
+           
             animator.SetBool("IsBlocking", false);
         }
 
@@ -125,6 +132,12 @@ public class PlayerControls : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other) 
+    {
+        Debug.Log("enter");
+        OnHitEffects();
+    }
+
     void RotateTowardsMouse()
     {
         // Get mouse position in world space
@@ -150,5 +163,12 @@ public class PlayerControls : MonoBehaviour
                 rb.rotation = Quaternion.RotateTowards(rb.rotation, targetRotation, maxRotationThisFrame);
             }
         }
+    }
+
+    void OnHitEffects() 
+    {
+        particleEffect.Clear();
+        particleEffect.Play();
+        audioSource.PlayOneShot(soundEffect);
     }
 }
