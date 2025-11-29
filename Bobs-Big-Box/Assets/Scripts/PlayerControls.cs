@@ -67,7 +67,6 @@ public class PlayerControls : MonoBehaviour
 
     void Update()
     {
-    
         // Get movement input
         if (moveAction != null)
         {
@@ -85,10 +84,9 @@ public class PlayerControls : MonoBehaviour
         }
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            animator.SetTrigger("Leftpunch");
-            Debug.Log("Left Punch thrown");
+            animator.SetTrigger("BulletPunch");
+            Debug.Log("BulletPunch!!!");
         }
-
         if (Keyboard.current.fKey.isPressed)
         {
             Debug.Log("BLOCKING");
@@ -96,19 +94,33 @@ public class PlayerControls : MonoBehaviour
         }
         else
         {
-           
             animator.SetBool("IsBlocking", false);
         }
-
         if (Keyboard.current.zKey.wasPressedThisFrame)
         {
-            animator.SetTrigger("RHpunch");
-            Debug.Log("heavy punch");
+            animator.SetTrigger("SPmove");
+            Debug.Log("heavy move");
         }
 
+        if (Keyboard.current.cKey.wasPressedThisFrame)
+        {
+            animator.SetTrigger("CamTest");
+            Debug.Log("Cinamaatic");
+        }
 
-    }
+        // Fixed: Use 'if' instead of 'while', and SetBool with capital S
+        if (Mouse.current.leftButton.isPressed)
+        {
+            Debug.Log("Left mouse button is held down!");
+            animator.SetBool("IsBulletPunching", true);
+        }
+        else
+        {
+            animator.SetBool("IsBulletPunching", false);
+        }
+    } // <-- Close Update() here
 
+    // FixedUpdate should be a separate method, not inside Update!
     void FixedUpdate()
     {
         // Move the player relative to camera direction
@@ -132,10 +144,10 @@ public class PlayerControls : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other) 
+    void OnTriggerEnter(Collider other)
     {
         Debug.Log("enter");
-        OnHitEffects();
+        // OnHitEffects();
     }
 
     void RotateTowardsMouse()
@@ -165,10 +177,6 @@ public class PlayerControls : MonoBehaviour
         }
     }
 
-    void OnHitEffects() 
-    {
-        particleEffect.Clear();
-        particleEffect.Play();
-        audioSource.PlayOneShot(soundEffect);
-    }
+
 }
+
