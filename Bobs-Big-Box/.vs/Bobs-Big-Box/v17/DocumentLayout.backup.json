@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|c:\\users\\arthu\\desktop\\semester 2\\projects\\personal_games\\bobs-big-box\\assets\\scripts\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|c:\\users\\arthu\\desktop\\semester 2\\projects\\personal_games\\bobs-big-box\\assets\\100besteffectpack\\script\\csdestroyeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|solutionrelative:assets\\100besteffectpack\\script\\csdestroyeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\assets\\inputsystem_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|solutionrelative:assets\\inputsystem_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\assets\\scripts\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE59ABA-904F-3D94-5D8B-23C1A29E61DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Temp\\Compiled-Effect-DoubleCats-black_white_shader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\Compiled-Effect-DoubleCats-black_white_shader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerControls.cs",
-              "DocumentMoniker": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\Scripts\\PlayerControls.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControls.cs",
-              "ToolTip": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\Scripts\\PlayerControls.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerControls.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAowF8AAAAHAAAAAAAAAA==",
+              "Title": "csDestroyEffect.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\100BestEffectPack\\Script\\csDestroyEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\100BestEffectPack\\Script\\csDestroyEffect.cs",
+              "ToolTip": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\100BestEffectPack\\Script\\csDestroyEffect.cs",
+              "RelativeToolTip": "Assets\\100BestEffectPack\\Script\\csDestroyEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:18:09.33Z",
+              "WhenOpened": "2025-11-29T20:00:28.094Z",
               "EditorCaption": ""
             },
             {
@@ -51,6 +59,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Compiled-Effect-DoubleCats-black_white_shader.shader",
+              "DocumentMoniker": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Temp\\Compiled-Effect-DoubleCats-black_white_shader.shader",
+              "RelativeDocumentMoniker": "Temp\\Compiled-Effect-DoubleCats-black_white_shader.shader",
+              "ToolTip": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Temp\\Compiled-Effect-DoubleCats-black_white_shader.shader",
+              "RelativeToolTip": "Temp\\Compiled-Effect-DoubleCats-black_white_shader.shader",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-11-29T18:49:00.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerControls.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\Scripts\\PlayerControls.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControls.cs",
+              "ToolTip": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\Scripts\\PlayerControls.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControls.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAEAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T23:18:09.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "InputSystem_Actions.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\Desktop\\Semester 2\\Projects\\Personal_Games\\Bobs-Big-Box\\Assets\\InputSystem_Actions.cs",
@@ -59,7 +91,8 @@
               "RelativeToolTip": "Assets\\InputSystem_Actions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T02:39:37.018Z"
+              "WhenOpened": "2025-11-26T02:39:37.018Z",
+              "EditorCaption": ""
             }
           ]
         }

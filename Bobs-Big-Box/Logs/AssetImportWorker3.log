@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.7f1-2eb0c79396db' branch; Version is '6000.2.7f2 (2b518236b676) revision 2838914'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthu" at "2025-11-29T06:19:20.5031257Z"
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32648 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthu" at "2025-11-29T19:43:25.230304Z"
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32386 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-29T06:19:20Z
+Date: 2025-11-29T19:43:25Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe
@@ -13,23 +13,23 @@ C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/arthu/OneDrive/Desktop/Personal_Games/Bobs-Big-Box
+C:/Users/arthu/Desktop/Semester 2/Projects/Personal_Games/Bobs-Big-Box
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-62365
+61405
 -licensingIpc
 LicenseClient-arthu
 -job-worker-count
-11
+15
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/arthu/OneDrive/Desktop/Personal_Games/Bobs-Big-Box
-C:/Users/arthu/OneDrive/Desktop/Personal_Games/Bobs-Big-Box
+Successfully changed project path to: C:/Users/arthu/Desktop/Semester 2/Projects/Personal_Games/Bobs-Big-Box
+C:/Users/arthu/Desktop/Semester 2/Projects/Personal_Games/Bobs-Big-Box
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -65,27 +65,27 @@ C:/Users/arthu/OneDrive/Desktop/Personal_Games/Bobs-Big-Box
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [41708]  Target information:
+Player connection [18920]  Target information:
 
-Player connection [41708]  * "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 763148417 [EditorId] 763148417 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FC8GE7N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18920]  * "[IP] 10.198.224.224 [Port] 0 [Flags] 2 [Guid] 3038311335 [EditorId] 3038311335 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L5LLOPVR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [41708] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [41708] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [18920] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18920] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1348, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8628, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              e649b9854ff34331836436b4d3964b78
-  Correlation Id:          942f867acd29e677976604b3a2d5be03
-  External correlation Id: 6282510017758073977
-  Machine Id:              L+ZoCGEnrkPq++NG90zZodAoSNc=
+  Session Id:              4ef8feced524498a84310a905c48a772
+  Correlation Id:          c36ad8de74e92cae371f75009de39dde
+  External correlation Id: 2810025270416800624
+  Machine Id:              QvCLQOZJXqOg8+5nUFt5LZosRw0=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arthu" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthu-notifications" at "2025-11-29T06:19:20.5388876Z"
-[Licensing::Module] Licensing Background thread has ended after 0.04s
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthu-notifications" at "2025-11-29T19:43:25.2583892Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,59 +93,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.7f2 (2b518236b676)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/arthu/OneDrive/Desktop/Personal_Games/Bobs-Big-Box/Assets
+[Subsystems] Discovering subsystems at path C:/Users/arthu/Desktop/Semester 2/Projects/Personal_Games/Bobs-Big-Box/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
     Vendor:   NVIDIA
-    VRAM:     10053 MB
-    Driver:   32.0.15.8180
+    VRAM:     7957 MB
+    Driver:   32.0.15.6607
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002698 seconds.
-- Loaded All Assemblies, in  0.366 seconds
+Registered in 0.000785 seconds.
+- Loaded All Assemblies, in  0.262 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.305 seconds
-Domain Reload Profiling: 668ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 517ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (136ms)
-		LoadAssemblies (128ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (82ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (305ms)
+	FinalizeReload (256ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (260ms)
+		SetupLoadedEditorAssemblies (226ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
+			InitializePlatformSupportModulesInManaged (34ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (113ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,11 +163,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.833 seconds
+- Loaded All Assemblies, in  0.535 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -181,110 +181,158 @@ Package Manager log level set to [2]
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Bobs-Big-Box
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.738 seconds
-Domain Reload Profiling: 1564ms
-	BeginReloadAssembly (188ms)
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 1117ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (552ms)
-		LoadAssemblies (416ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (227ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (155ms)
-			BuildScriptInfoCaches (50ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (738ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (584ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (567ms)
+		SetupLoadedEditorAssemblies (447ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (349ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6872 unused Assets / (4.8 MB). Loaded Objects now: 7587.
-Memory consumption went from 144.5 MB to 139.6 MB.
-Total: 9.792100 ms (FindLiveObjects: 0.848500 ms CreateObjectMapping: 1.033000 ms MarkObjects: 5.098500 ms  DeleteObjects: 2.811400 ms)
+Unloading 6916 unused Assets / (5.3 MB). Loaded Objects now: 7703.
+Memory consumption went from 152.4 MB to 147.1 MB.
+Total: 6.402600 ms (FindLiveObjects: 0.494900 ms CreateObjectMapping: 0.302900 ms MarkObjects: 3.765500 ms  DeleteObjects: 1.838700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 393716.781184 seconds.
-  path: Assets/Art and Animations/Player Animation/Bullet-Punch-ATK.anim
-  artifactKey: Guid(d6aa1d658b6e16a4f8a2ca993501aedd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Art and Animations/Player Animation/Bullet-Punch-ATK.anim using Guid(d6aa1d658b6e16a4f8a2ca993501aedd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b85b344e1c22ef3ec9d5c72cb03c27a') in 0.1928983 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 10509.778605 seconds.
+  path: Assets/100BestEffectPack/Effects/HolyEffect/HolyEffect4.prefab
+  artifactKey: Guid(a410dd85a1c482d4484d8a04ddf47841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/HolyEffect/HolyEffect4.prefab using Guid(a410dd85a1c482d4484d8a04ddf47841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '486dd55fa83c6992781b37b85abd7a15') in 0.3416377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
 ========================================================================
 Received Import Request.
-  Time since last request: 122.058723 seconds.
-  path: Assets/Low Poly Fire/Materials
-  artifactKey: Guid(28cbc7b82d868df4dba125b043bdb1a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Low Poly Fire/Materials using Guid(28cbc7b82d868df4dba125b043bdb1a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73f71c3a1389678d7a1942739e617ae3') in 0.0130572 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 147.133728 seconds.
+  path: Assets/100BestEffectPack/Effects/PortalEffect/PortalEffect2.prefab
+  artifactKey: Guid(03ae23e2a026de546b9e108089a37644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/PortalEffect/PortalEffect2.prefab using Guid(03ae23e2a026de546b9e108089a37644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16f2d5377372528fa68c00ac54cba282') in 0.0248838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.942028 seconds.
-  path: Assets/Low Poly Fire/Scenes/Demo_Profiles/Post FX Profile.asset
-  artifactKey: Guid(b14689c940e6b344ca7deffd43bc8df2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Low Poly Fire/Scenes/Demo_Profiles/Post FX Profile.asset using Guid(b14689c940e6b344ca7deffd43bc8df2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da017ddf0a47da94b9e2cf231b10ace2') in 0.0188264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000028 seconds.
+  path: Assets/100BestEffectPack/Effects/PortalEffect/PortalEffect5.prefab
+  artifactKey: Guid(47636b78c0c5b7d47ab3e627dfe4311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/PortalEffect/PortalEffect5.prefab using Guid(47636b78c0c5b7d47ab3e627dfe4311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f6d89f4e46614bfb2d5508d94d61420') in 0.0172278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Low Poly Fire/Prefabs/Pink-FireWood.prefab
-  artifactKey: Guid(cfd52433c2081db47b83623fd9394d6f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Low Poly Fire/Prefabs/Pink-FireWood.prefab using Guid(cfd52433c2081db47b83623fd9394d6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7cd628d3cbb14a814aaf1f2f762e0e06') in 0.0348213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 0.000020 seconds.
+  path: Assets/100BestEffectPack/Effects/PortalEffect/PortalEffect3.prefab
+  artifactKey: Guid(e139c99a5ed32f84da65ff9be7b49c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/PortalEffect/PortalEffect3.prefab using Guid(e139c99a5ed32f84da65ff9be7b49c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c85ee55eebf4b24fcc6df8788917cc0') in 0.0278936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.197026 seconds.
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect2.prefab
+  artifactKey: Guid(4f70ceb47dc85404fb9b9e18573378d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect2.prefab using Guid(4f70ceb47dc85404fb9b9e18573378d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a255593a117d64091f9fb8e0ea1199cb') in 0.0131424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect3.prefab
+  artifactKey: Guid(61bd94d017908ef4e9532f277daedcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect3.prefab using Guid(61bd94d017908ef4e9532f277daedcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d7d9ccf8257e2bb22dea50725bc8aec') in 0.0106784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect14.prefab
+  artifactKey: Guid(e4dd53e2482118745a88e60740a10bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect14.prefab using Guid(e4dd53e2482118745a88e60740a10bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6b9b69fad50f14f0266a05c7e9dd697') in 0.0110251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Low Poly Fire/Materials/Demo Skybox.mat
-  artifactKey: Guid(3fa3cd91b769a454ebedac38337905a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Low Poly Fire/Materials/Demo Skybox.mat using Guid(3fa3cd91b769a454ebedac38337905a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca25848943dccbf30124dca9700f88fa') in 0.0245101 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect11.prefab
+  artifactKey: Guid(50264093ec1b1714a83b96f2e9de1f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect11.prefab using Guid(50264093ec1b1714a83b96f2e9de1f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f41102dfc8d2b076cba79573af2753b') in 0.0107124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Low Poly Fire/Scenes
-  artifactKey: Guid(aa73538cc6da94241a7e7a199ec81c31) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Low Poly Fire/Scenes using Guid(aa73538cc6da94241a7e7a199ec81c31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29c0941872265bcca175bac819651082') in 0.0173385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000037 seconds.
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect18.prefab
+  artifactKey: Guid(2dcbc9695b7780b49a17a09abf270163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect18.prefab using Guid(2dcbc9695b7780b49a17a09abf270163) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df216892641412221f93a7e8473b9f44') in 0.0144126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Low Poly Fire/Materials/Demo Skybox.mat
-  artifactKey: Guid(3fa3cd91b769a454ebedac38337905a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Fire/Materials/Demo Skybox.mat using Guid(3fa3cd91b769a454ebedac38337905a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac76c2d9f9e486bb5eec12d30e3ca5cc') in 0.5481941 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000038 seconds.
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect10.prefab
+  artifactKey: Guid(11e125d5598e71a4d996d75ed4e78fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect10.prefab using Guid(11e125d5598e71a4d996d75ed4e78fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '364086fb79611d20e393e9d7e4e7a312') in 0.0084833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.725265 seconds.
-  path: Assets/Low Poly Fire/Prefabs/Yellow-FireWood.prefab
-  artifactKey: Guid(8fcb9d2d43929c04f8c70c38581418d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Fire/Prefabs/Yellow-FireWood.prefab using Guid(8fcb9d2d43929c04f8c70c38581418d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e95d2b18321e11edaab84aa0f3aff66d') in 0.059035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+  Time since last request: 0.000022 seconds.
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect8.prefab
+  artifactKey: Guid(762a3772581389a4d9114382a513f360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect8.prefab using Guid(762a3772581389a4d9114382a513f360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aee1d6b8f2e4874fb66dabe2381ceedb') in 0.009633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect20.prefab
+  artifactKey: Guid(28e29d76acf694c4a98b013d47c6bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect20.prefab using Guid(28e29d76acf694c4a98b013d47c6bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d007691d1f2d086cb6e055a82bf9456') in 0.010815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect5.prefab
+  artifactKey: Guid(55da70703668fe04f93b89f9c0cf29be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect5.prefab using Guid(55da70703668fe04f93b89f9c0cf29be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c6559bd6733e93e9a23dd5d6a822c37') in 0.0208659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect9.prefab
+  artifactKey: Guid(908906b602e3666449d1fc8f4d5a9b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/OtherMagicEffect/MagicEffect9.prefab using Guid(908906b602e3666449d1fc8f4d5a9b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31873b3c209eb34d8167804fa07a6e5f') in 0.018851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
