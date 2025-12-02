@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.7f1-2eb0c79396db' branch; Version is '6000.2.7f2 (2b518236b676) revision 2838914'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthu" at "2025-11-29T19:41:28.1548656Z"
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32386 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-29T18:39:51Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthu" at "2025-11-29T18:39:51.1542658Z"
+Date: 2025-11-29T19:41:28Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/arthu/Desktop/Semester 2/Projects/Personal_Games/Bobs-Big-Box
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54861
+61405
 -licensingIpc
 LicenseClient-arthu
 -job-worker-count
@@ -65,12 +65,12 @@ C:/Users/arthu/Desktop/Semester 2/Projects/Personal_Games/Bobs-Big-Box
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21776]  Target information:
+Player connection [17648]  Target information:
 
-Player connection [21776]  * "[IP] 10.198.224.224 [Port] 0 [Flags] 2 [Guid] 1463195952 [EditorId] 1463195952 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L5LLOPVR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17648]  * "[IP] 10.198.224.224 [Port] 0 [Flags] 2 [Guid] 410729313 [EditorId] 410729313 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L5LLOPVR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21776] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17648] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17648] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,13 +79,13 @@ Input System module state changed to: Initialized.
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              b488606907d94d5db45c517dcf0cd818
+  Session Id:              84403ed206cb4767b51bd62372245ec3
   Correlation Id:          c36ad8de74e92cae371f75009de39dde
-  External correlation Id: 1286125319591376501
+  External correlation Id: 9121760089117081946
   Machine Id:              QvCLQOZJXqOg8+5nUFt5LZosRw0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arthu" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthu-notifications" at "2025-11-29T18:39:51.203565Z"
-[Licensing::Module] Licensing Background thread has ended after 0.05s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arthu" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthu-notifications" at "2025-11-29T19:41:28.1814643Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.7f2 (2b518236b676)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Resources/UnitySubsystems
@@ -109,43 +109,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001173 seconds.
-- Loaded All Assemblies, in  0.398 seconds
+Registered in 0.000936 seconds.
+- Loaded All Assemblies, in  0.254 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.361 seconds
-Domain Reload Profiling: 758ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 513ms
+	BeginReloadAssembly (82ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (185ms)
-		LoadAssemblies (123ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (80ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (169ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (94ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (361ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (260ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (331ms)
+		SetupLoadedEditorAssemblies (228ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (155ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,11 +163,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.814 seconds
+- Loaded All Assemblies, in  0.536 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -181,70 +181,142 @@ Package Manager log level set to [2]
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Bobs-Big-Box
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.891 seconds
-Domain Reload Profiling: 1702ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 1151ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (565ms)
-		LoadAssemblies (355ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (245ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (302ms)
-			TypeCache.Refresh (231ms)
-				TypeCache.ScanAssembly (218ms)
-			BuildScriptInfoCaches (57ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (891ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (39ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (617ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (689ms)
+		SetupLoadedEditorAssemblies (477ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (436ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6872 unused Assets / (5.4 MB). Loaded Objects now: 7589.
-Memory consumption went from 145.1 MB to 139.6 MB.
-Total: 11.223600 ms (FindLiveObjects: 0.640000 ms CreateObjectMapping: 0.583300 ms MarkObjects: 6.706500 ms  DeleteObjects: 3.292100 ms)
+Unloading 6916 unused Assets / (5.7 MB). Loaded Objects now: 7703.
+Memory consumption went from 148.6 MB to 142.9 MB.
+Total: 12.499900 ms (FindLiveObjects: 0.708900 ms CreateObjectMapping: 0.636200 ms MarkObjects: 7.403900 ms  DeleteObjects: 3.749200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6688.342799 seconds.
-  path: Assets/Mats/New Material.mat
-  artifactKey: Guid(1d81146e7422c0f4c9beaf6e814b396f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Mats/New Material.mat using Guid(1d81146e7422c0f4c9beaf6e814b396f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dccd9ac1004977bfdab1741e71fd741') in 0.2387809 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 10377.013870 seconds.
+  path: Assets/100BestEffectPack/Effects/BloodEffect
+  artifactKey: Guid(33bb8bb6b420e57449de27e69cd41400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/BloodEffect using Guid(33bb8bb6b420e57449de27e69cd41400) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea31182b882a5f4ca10c81e4c55b9bb') in 0.0062103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SoundEffects/punch-gaming-sound-effect-hd_RzlG1GE.mp3
-  artifactKey: Guid(fd1163481b4de5f43af3e30d52c01447) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/SoundEffects/punch-gaming-sound-effect-hd_RzlG1GE.mp3 using Guid(fd1163481b4de5f43af3e30d52c01447) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98405dea8f2edab3eef75e9808538af3') in 0.0609021 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000018 seconds.
+  path: Assets/100BestEffectPack
+  artifactKey: Guid(97c5bcb403f61264f8878d3ee1664e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack using Guid(97c5bcb403f61264f8878d3ee1664e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f1452db07937cae4069be3458ca729a') in 0.0005499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Low Poly Fire/Models/FireWood.fbx
-  artifactKey: Guid(757eb8138e8500441b04da40032a2c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Low Poly Fire/Models/FireWood.fbx using Guid(757eb8138e8500441b04da40032a2c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff439d7ff4d73158739f241a22b21627') in 0.076139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+  Time since last request: 0.000013 seconds.
+  path: Assets/100BestEffectPack/Effects/BloodEffect/BloodEffect2.prefab
+  artifactKey: Guid(d4a66304d9609aa46b6b14565b193481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/BloodEffect/BloodEffect2.prefab using Guid(d4a66304d9609aa46b6b14565b193481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22afdddaf90777dc50cb48ecf1c0f721') in 0.3893308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/100BestEffectPack/Effects/BloodEffect/BloodEffect3.prefab
+  artifactKey: Guid(a489745b26b04fd42aa49e3b762b9ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/BloodEffect/BloodEffect3.prefab using Guid(a489745b26b04fd42aa49e3b762b9ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a585e761acec3a3e75047a9e848112ac') in 0.0249059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.259126 seconds.
+  path: Assets/100BestEffectPack/Effects/ExplosionEffect/ExplosionEffect2.prefab
+  artifactKey: Guid(a09fc9d98d9a5bd4088577d6b5c31870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/ExplosionEffect/ExplosionEffect2.prefab using Guid(a09fc9d98d9a5bd4088577d6b5c31870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed167cff4df51e771ff33ef3f8e2ff66') in 0.036165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/100BestEffectPack/Effects/ExplosionEffect/ExplosionEffect5.prefab
+  artifactKey: Guid(6abcdaf8c8fd61b4697e96e8a1138d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/ExplosionEffect/ExplosionEffect5.prefab using Guid(6abcdaf8c8fd61b4697e96e8a1138d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f38d1f7159cd380c12d12cc3220f7920') in 0.0483679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.294854 seconds.
+  path: Assets/100BestEffectPack/Effects/Kunai/Kunai2.prefab
+  artifactKey: Guid(fcede021350cd6144a595be46cd1cf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/Kunai/Kunai2.prefab using Guid(fcede021350cd6144a595be46cd1cf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '924a14880ad5eafff6c620ad463089f5') in 0.0445323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/100BestEffectPack/Effects/Kunai/Kunai9.prefab
+  artifactKey: Guid(1704a7b6fc66d0141b3fc17b55ce8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/Kunai/Kunai9.prefab using Guid(1704a7b6fc66d0141b3fc17b55ce8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a3d86d50a65e23ac9e095ed1c048416') in 0.0258613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/100BestEffectPack/Effects/Kunai/Kunai7.prefab
+  artifactKey: Guid(24337e0a2d80cdb478c3528cb3f9acfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/Kunai/Kunai7.prefab using Guid(24337e0a2d80cdb478c3528cb3f9acfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79ef8b842086a40f94595a9ff2237894') in 0.0384996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/100BestEffectPack/Effects/Kunai/Kunai6.prefab
+  artifactKey: Guid(a837874212f62b8428ecacdbd58d341d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/Kunai/Kunai6.prefab using Guid(a837874212f62b8428ecacdbd58d341d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bd12986a991576b9a7eefebb2e6c762') in 0.0173175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/100BestEffectPack/Effects/Kunai/Kunai8.prefab
+  artifactKey: Guid(c9bc18128d2458148a227441777f3654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/Kunai/Kunai8.prefab using Guid(c9bc18128d2458148a227441777f3654) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '447a6c6bf6b074e70f8b2f98c7966f9b') in 0.0260761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.261405 seconds.
+  path: Assets/100BestEffectPack/Effects/HolyEffect/HolyEffect3.prefab
+  artifactKey: Guid(869a6fc2dd1fce44880c4802fabda775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100BestEffectPack/Effects/HolyEffect/HolyEffect3.prefab using Guid(869a6fc2dd1fce44880c4802fabda775) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd00c3d5deaa6c830a7594390df92e550') in 0.0256836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
