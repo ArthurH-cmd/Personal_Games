@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 47c81adba31009f4f990cf698223bd41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4393758226330090344
+    second: blood_atlas_realistic_0
+  - first:
+      213: 1670066510462271599
+    second: blood_atlas_realistic_1
+  - first:
+      213: 6270160331309859496
+    second: blood_atlas_realistic_2
+  - first:
+      213: -7857096408326837010
+    second: blood_atlas_realistic_3
+  - first:
+      213: 1967010042660933808
+    second: blood_atlas_realistic_4
+  - first:
+      213: 8677258122089834073
+    second: blood_atlas_realistic_5
+  - first:
+      213: -3991420440363697630
+    second: blood_atlas_realistic_6
+  - first:
+      213: 6066526863465387386
+    second: blood_atlas_realistic_7
+  - first:
+      213: 9000162158518337062
+    second: blood_atlas_realistic_8
+  - first:
+      213: -6742800554638271964
+    second: blood_atlas_realistic_9
+  - first:
+      213: -6089293492382886722
+    second: blood_atlas_realistic_10
+  - first:
+      213: -2826062139593734278
+    second: blood_atlas_realistic_11
+  - first:
+      213: 8203003926138922090
+    second: blood_atlas_realistic_12
+  - first:
+      213: -8750757321800418167
+    second: blood_atlas_realistic_13
+  - first:
+      213: -1113769208855098007
+    second: blood_atlas_realistic_14
+  - first:
+      213: 7202914272250440589
+    second: blood_atlas_realistic_15
+  - first:
+      213: -3216862241083896926
+    second: blood_atlas_realistic_16
+  - first:
+      213: 923259430651461384
+    second: blood_atlas_realistic_17
+  - first:
+      213: -7035024505632934577
+    second: blood_atlas_realistic_18
+  - first:
+      213: 939091911978166861
+    second: blood_atlas_realistic_19
+  - first:
+      213: 2522484646052388708
+    second: blood_atlas_realistic_20
+  - first:
+      213: 2944436429243594560
+    second: blood_atlas_realistic_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blood_atlas_realistic_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 474
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bfa55e3d3c9fc30800000000000000
+      internalID: 4393758226330090344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 492
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60416394a44d2710800000000000000
+      internalID: 1670066510462271599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 312
+        width: 187
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a24870c995140750800000000000000
+      internalID: 6270160331309859496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 279
+        width: 218
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec6eaff17cf5f290800000000000000
+      internalID: -7857096408326837010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 288
+        width: 210
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b05e6e46393c4b10800000000000000
+      internalID: 1967010042660933808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_5
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 389
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956a987b940db6870800000000000000
+      internalID: 8677258122089834073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_6
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 283
+        width: 207
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a73e6c140ab98c0800000000000000
+      internalID: -3991420440363697630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 282
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75183d5a02a03450800000000000000
+      internalID: 6066526863465387386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_8
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 296
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ef56b5ccff6ec70800000000000000
+      internalID: 9000162158518337062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 264
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a9a75de92cc62a0800000000000000
+      internalID: -6742800554638271964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 37
+        width: 201
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb49b65c4db7e7ba0800000000000000
+      internalID: -6089293492382886722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_11
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 26
+        width: 171
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77c558057fc7c8d0800000000000000
+      internalID: -2826062139593734278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_12
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 212
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6425a40c9ce6d170800000000000000
+      internalID: 8203003926138922090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 155
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cff6e44901f8680800000000000000
+      internalID: -8750757321800418167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 33
+        width: 164
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d8c683ec81b80f0800000000000000
+      internalID: -1113769208855098007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 42
+        width: 222
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b24113e54e5f360800000000000000
+      internalID: 7202914272250440589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abc3dcd5d86b53d0800000000000000
+      internalID: -3216862241083896926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_17
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 141
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f728f7f8310dc00800000000000000
+      internalID: 923259430651461384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_18
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 124
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45b49b3c729e5e90800000000000000
+      internalID: -7035024505632934577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 90
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4aa6e05e13580d00800000000000000
+      internalID: 939091911978166861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_20
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 55
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f545fbb6aa10320800000000000000
+      internalID: 2522484646052388708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_atlas_realistic_21
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 33
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047b8c4055dbcd820800000000000000
+      internalID: 2944436429243594560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blood_atlas_realistic_0: 4393758226330090344
+      blood_atlas_realistic_1: 1670066510462271599
+      blood_atlas_realistic_10: -6089293492382886722
+      blood_atlas_realistic_11: -2826062139593734278
+      blood_atlas_realistic_12: 8203003926138922090
+      blood_atlas_realistic_13: -8750757321800418167
+      blood_atlas_realistic_14: -1113769208855098007
+      blood_atlas_realistic_15: 7202914272250440589
+      blood_atlas_realistic_16: -3216862241083896926
+      blood_atlas_realistic_17: 923259430651461384
+      blood_atlas_realistic_18: -7035024505632934577
+      blood_atlas_realistic_19: 939091911978166861
+      blood_atlas_realistic_2: 6270160331309859496
+      blood_atlas_realistic_20: 2522484646052388708
+      blood_atlas_realistic_21: 2944436429243594560
+      blood_atlas_realistic_3: -7857096408326837010
+      blood_atlas_realistic_4: 1967010042660933808
+      blood_atlas_realistic_5: 8677258122089834073
+      blood_atlas_realistic_6: -3991420440363697630
+      blood_atlas_realistic_7: 6066526863465387386
+      blood_atlas_realistic_8: 9000162158518337062
+      blood_atlas_realistic_9: -6742800554638271964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
